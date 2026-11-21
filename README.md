@@ -9,16 +9,16 @@ sso for accounts.engenesis.com
 - Carbon 3.x
 
 ###
-[![PHP Version Require](http://poser.pugx.org/zaman-tech/sso/require/php)](https://packagist.org/packages/zaman-tech/sso)
-[![Total Downloads](http://poser.pugx.org/zaman-tech/sso/downloads)](https://packagist.org/packages/zaman-tech/sso)
-[![License](http://poser.pugx.org/zaman-tech/sso/license)](https://packagist.org/packages/zaman-tech/sso)
-[![Github All Releases](https://img.shields.io/github/downloads/Hossien-Salamhe/sso/total.svg)]()
+[![PHP Version Require](https://poser.pugx.org/engenesis/sso/require/php)](https://packagist.org/packages/engenesis/sso)
+[![Total Downloads](https://poser.pugx.org/engenesis/sso/downloads)](https://packagist.org/packages/engenesis/sso)
+[![License](https://poser.pugx.org/engenesis/sso/license)](https://packagist.org/packages/engenesis/sso)
+[![GitHub All Releases](https://img.shields.io/github/downloads/ZamanLtd/Engenesis-SSO-pkg/total.svg)](https://github.com/ZamanLtd/Engenesis-SSO-pkg/releases)
 ## Installation
 
 Run the following command to install the latest applicable version of the package:
 
 ```bash
-    composer require zaman-tech/sso
+    composer require engenesis/sso
 ```
 
 ## Setup:

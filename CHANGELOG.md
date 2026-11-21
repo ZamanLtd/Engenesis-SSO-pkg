@@ -2,6 +2,7 @@
 
 ## 2.0.0
 
+- Rename the Composer package from `zaman-tech/sso` to `engenesis/sso`.
 - Require PHP 8.3 or newer.
 - Require Laravel 13, Guzzle 8, and Carbon 3.
 - Declare runtime dependencies explicitly.

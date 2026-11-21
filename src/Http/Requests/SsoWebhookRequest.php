@@ -1,12 +1,9 @@
 <?php
 
-
-namespace Modules\User\Http\Requests\Webhook;
-
+namespace ZamanTech\Sso\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\Rule;
 
 class SsoWebhookRequest extends FormRequest
 {
@@ -18,7 +15,7 @@ class SsoWebhookRequest extends FormRequest
     public function rules()
     {
         return [
-            'user'=>'required',
+            'user' => 'required',
         ];
     }
 

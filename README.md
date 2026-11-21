@@ -1,6 +1,13 @@
 # sso
 sso for accounts.engenesis.com
 
+## Compatibility
+
+- PHP 8.3+
+- Laravel 13
+- Guzzle 8.x
+- Carbon 3.x
+
 ###
 [![PHP Version Require](http://poser.pugx.org/zaman-tech/sso/require/php)](https://packagist.org/packages/zaman-tech/sso)
 [![Total Downloads](http://poser.pugx.org/zaman-tech/sso/downloads)](https://packagist.org/packages/zaman-tech/sso)
@@ -36,7 +43,7 @@ publish config package:
     use ZamanTech\Sso\Http\Controllers\SsoController;
     
     
-    $sso = new SsoController($validated['code']);
+    $sso = new SsoController('engenesis', $validated['code']);
     $content = $sso->getContent();
     $userDetails = $sso->getUserDetails();
     $userInfo = $sso->getUserInfo();

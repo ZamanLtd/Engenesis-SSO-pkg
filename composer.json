@@ -1,11 +1,23 @@
 {
     "name": "zaman-tech/sso",
     "description": "sso authentication &  controller & manager",
+    "keywords": [
+        "authentication",
+        "laravel",
+        "oauth",
+        "sso"
+    ],
+    "homepage": "https://github.com/ZamanLtd/Engenesis-SSO-pkg",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "ZamanTech\\Sso\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZamanTech\\Sso\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -15,11 +27,28 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/contracts": "^11.0"
+        "php": "^8.3",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^8.0",
+        "laravel/framework": "^13.0",
+        "nesbot/carbon": "^3.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.0"
+    },
+    "scripts": {
+        "lint": "pint --test",
+        "test": "phpunit"
     },
     "config": {
+        "optimize-autoloader": true,
         "sort-packages": true
+    },
+    "support": {
+        "issues": "https://github.com/ZamanLtd/Engenesis-SSO-pkg/issues",
+        "source": "https://github.com/ZamanLtd/Engenesis-SSO-pkg"
     },
     "extra": {
         "laravel": {
